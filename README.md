@@ -1,8 +1,8 @@
 # Thycotic.UiPath.SecureStore
-Credential Store plugins for UI Path orchestrator.  To use these credential store plugins, drop the corresponding dll into the plugins directory in the UI Path Orchestrator install directory and modify the web.config as specified here: https://github.com/UiPath/Orchestrator-CredentialStorePlugins
+Credential Store plugins for UiPath orchestrator.  To use these credential store plugins, drop the corresponding dll into the plugins directory in the UiPath Orchestrator install directory and modify the web.config as specified here: https://github.com/UiPath/Orchestrator-CredentialStorePlugins
 
 # Secret Server
-The Secret Server integration is read only. When an asset or robot is created in UI Path Orchestrator it is linked to a pre-existing secret using the Secret Id.
+The Secret Server integration is read only. When an asset or robot is created in UiPath Orchestrator it is linked to a pre-existing secret using the Secret Id.
 
 The integration uses the Secret Server SDK, which is documented in more detail here: https://github.com/thycotic/sdk-documentation
 
@@ -27,7 +27,7 @@ In Orchestrator:
 
 
 ## Notes
-* The Application User linked to the client SDK rule must have permissions to the Secrets accessed by UI Path, assign it to a group and grant that group access to the required folders, or grant it explicit access to the Secrets.
+* The Application User linked to the client SDK rule must have permissions to the Secrets accessed by UiPath, assign it to a group and grant that group access to the required folders, or grant it explicit access to the Secrets.
 * Ensure that the orchestrator machine trusts the TLS certificate used by Secret Server
 
 # Development
