@@ -80,7 +80,7 @@ namespace SecretServer.SecureStore
                 {
                     Key = "SdkConfigDirectory",
                     DisplayName = "SDK Config Storage Path",
-                    DefaultValue = "c:\\windows\\temp",
+                    IsMandatory = true,
                 },
             };
         }
