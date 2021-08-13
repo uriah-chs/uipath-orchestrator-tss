@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Thycotic.SecretServer.Sdk.Extensions.Integration.Clients;
 using UiPath.Orchestrator.Extensibility.Configuration;
 using UiPath.Orchestrator.Extensibility.SecureStores;
 
@@ -16,7 +17,7 @@ namespace SecretServer.SecureStore
             _clientFactory = clientFactory;
         }
 
-        public SecretServerSecureStore() : this(new SecretServerClientFactory())
+        public SecretServerSecureStore() : this(new SecretServerClientFactory(new SecretServerClient()))
         {
         }
 
