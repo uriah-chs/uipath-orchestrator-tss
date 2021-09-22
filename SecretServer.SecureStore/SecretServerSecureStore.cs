@@ -17,7 +17,7 @@ namespace SecretServer.SecureStore
             _clientFactory = clientFactory;
         }
 
-        public SecretServerSecureStore() : this(new SecretServerClientFactory(new SecretServerClient()))
+        public SecretServerSecureStore() : this(new SecretServerClientFactory())
         {
         }
 

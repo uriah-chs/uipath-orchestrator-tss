@@ -13,7 +13,7 @@ namespace SecretServer.SecureStore.Tests
         private ISecretServerClient _client;
         private SecretServerContext _context;
 
-        private readonly string _secretServerUrl = "expected Secret Server URL";
+        private readonly string _secretServerUrl = "https://expected.Secret.Server.URL";
         private readonly string _ruleName = "expected Rule Name";
         private readonly string _ruleKey = "expected Rule Key";
         private const CacheStrategy _cacheStrategy = CacheStrategy.Never;
